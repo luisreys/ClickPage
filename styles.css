@@ -5,3 +5,32 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
+.barnav{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.barnav a{
+    color: white;
+}
+
+#main-brand a:hover{
+    color: white;
+}
+
+.counter{
+    height: 85vh;
+    line-height: 85vh;
+    border: 2px dashed #f69c55;
+    text-align: center;
+}
+
+.counter h1{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 400%;
+}
