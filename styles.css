@@ -22,8 +22,14 @@ body{
 .counter{
     height: 85vh;
     line-height: 85vh;
-    border: 2px dashed #f69c55;
+    /*border: 2px dashed #f69c55; */
     text-align: center;
+
+    /* Unable text selection*/
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+    unselectable: on;
+    onselectstart:return false;
+    onmousedown:return false;
 }
 
 .counter h1{
